@@ -90,3 +90,9 @@ mvn install
 6. **Deploy the package to a remote repository:**
 ```sh
 mvn deploy
+```
+7. **Run package using maven exec plugin**
+Update pom.xml file to add plugin section for directly executing the java file using maven execute command
+```sh
+mvn exec:java
+```
